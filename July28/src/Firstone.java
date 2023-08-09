@@ -14,7 +14,7 @@ public class Firstone {
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver= new ChromeDriver();
 		driver.get("www.google.com");
-
+		System.out.println("Good morning sis");
 	}
 
 }
